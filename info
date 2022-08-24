@@ -1,0 +1,11 @@
+per avviare programma piccioni scrivi ./sfml-app 
+
+
+1)compilare:
+g++ -c progpicc.cpp
+
+2)finestra grafica?:
+g++ progpicc.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+
+3)avviare prog:
+./sfml-app 
